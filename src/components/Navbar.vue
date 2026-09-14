@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-violet-400 px-6 sm:px-12 lg:px-24 xl:px-80 py-5 sticky top-0 z-50">
+  <nav class="bg-violet-400 px-[clamp(1.5rem,8vw,20rem)] py-5 sticky top-0 z-50">
     <div class="flex items-center justify-between">
       <!-- Brand Logo -->
       <a href="#" class="text-2xl font-bold text-white">Danai Akrivou</a>

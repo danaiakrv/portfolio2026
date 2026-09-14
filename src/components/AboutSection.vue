@@ -25,8 +25,14 @@
                         <img src="../../icons/icons_uxui.png" alt="">
                         <p class="!text-xs !text-center">UX/UI Research & Design</p>
                     </div>
-                    <div class="aspect-square flex items-center justify-center rounded-lg bg-gray-200">04</div>
-                    <div class="aspect-square flex items-center justify-center rounded-lg bg-gray-200">05</div>
+                    <div class="aspect-square flex flex-col gap-2 items-center justify-center">
+                        <img src="../../icons/icons_art.png" alt="">
+                        <p class="!text-xs !text-center">Graphic Design & Art</p>
+                    </div>
+                    <div class="aspect-square flex flex-col gap-2 items-center justify-center">
+                        <img src="../../icons/icons_art.png" alt="">
+                        <p class="!text-xs !text-center">Game Development</p>
+                    </div>
                     <div class="aspect-square flex items-center justify-center rounded-lg bg-gray-200">06</div>
                 </div>
             </div>
