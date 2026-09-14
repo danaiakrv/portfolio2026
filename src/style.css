@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+html {
+    @apply scroll-smooth;
+}
+
+section[id] {
+    @apply scroll-mt-15 px-7 pt-15 pb-10 xl:pt-20 max-w-7xl mx-auto;
+}
+
+h2 {
+    @apply uppercase text-2xl font-bold mb-5 xl:text-3xl;
+}
+
+h3 {
+    @apply uppercase font-bold my-5 text-lg xl:mt-0 xl:text-xl;
+}
+
+p {
+    @apply text-lg/10 text-justify xl:text-left;
+}
+
+/*
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -296,3 +317,4 @@ code {
     border-right-color: var(--border);
   }
 }
+*/
