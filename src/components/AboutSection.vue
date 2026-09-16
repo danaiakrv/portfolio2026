@@ -14,23 +14,23 @@
                 <h3>My Skills</h3>
                 <div class="grid grid-cols-3 gap-3 sm:gap-4">
                     <div class="aspect-square flex flex-col gap-2 items-center justify-center">
-                        <img src="../../icons/icons_frontend.png" alt="" class="duration-300 hover:scale-105">
+                        <img src="/icons/icons_frontend.png" alt="" class="duration-300 hover:scale-105">
                         <p class="!text-xs !text-center">Frontend Development</p>
                     </div>
                     <div class="aspect-square flex flex-col gap-2 items-center justifynpm-center">
-                        <img src="../../icons/icons_backend.png" alt="" class="duration-300 hover:scale-105">
+                        <img src="/icons/icons_backend.png" alt="" class="duration-300 hover:scale-105">
                         <p class="!text-xs !text-center">Backend Development</p>
                     </div>
                     <div class="aspect-square flex flex-col gap-2 items-center justify-center">
-                        <img src="../../icons/icons_uxui.png" alt="" class="duration-300 hover:scale-105">
+                        <img src="/icons/icons_uxui.png" alt="" class="duration-300 hover:scale-105">
                         <p class="!text-xs !text-center">UX/UI Research & Design</p>
                     </div>
                     <div class="aspect-square flex flex-col gap-2 items-center justify-center">
-                        <img src="../../icons/icons_art.png" alt="" class="duration-300 hover:scale-105">
+                        <img src="/icons/icons_art.png" alt="" class="duration-300 hover:scale-105">
                         <p class="!text-xs !text-center">Graphic Design & Art</p>
                     </div>
                     <div class="aspect-square flex flex-col gap-2 items-center justify-center">
-                        <img src="../../icons/icons_game.png" alt="" class="duration-300 hover:scale-105">
+                        <img src="/icons/icons_game.png" alt="" class="duration-300 hover:scale-105">
                         <p class="!text-xs !text-center">Game Development</p>
                     </div>
                 </div>
@@ -39,15 +39,15 @@
                 <h3 class="pt-5 lg:pt-0">Contact</h3>
                 <div class="grid grid-cols-3 gap-3 sm:gap-4">
                     <a href="mailto:danaiakrv@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email" class="aspect-square flex flex-col gap-2 items-center justify-center !no-underline">
-                        <img src="../../icons/icons_email.png" alt="" class="duration-300 hover:scale-105">
+                        <img src="/icons/icons_email.png" alt="" class="duration-300 hover:scale-105">
                         <p class="!text-xs !text-center">E-Mail</p>
                     </a>
                     <a href="https://www.linkedin.com/in/danaiakrv/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="aspect-square flex flex-col gap-2 items-center justify-center !no-underline">
-                        <img src="../../icons/icons_linkedin.png" alt="" class="duration-300 hover:scale-105">
+                        <img src="/icons/icons_linkedin.png" alt="" class="duration-300 hover:scale-105">
                         <p class="!text-xs !text-center">LinkedIn</p>
                     </a>
                     <a href="https://github.com/danaiakrv" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="aspect-square flex flex-col gap-2 items-center justify-center !no-underline">
-                        <img src="../../icons/icons_github.png" alt="" class="duration-300 hover:scale-105">
+                        <img src="/icons/icons_github.png" alt="" class="duration-300 hover:scale-105">
                         <p class="!text-xs !text-center">GitHub</p>
                     </a>
                 </div>
@@ -55,7 +55,7 @@
         </div>
       </div>
       <div class="lg:col-start-2 xl:col-start-3 lg:row-span-3 lg:row-start-1 flex justify-center">
-        <img src="../../images/me.png" alt="" class="w-full max-w-sm lg:w-120 lg:max-w-none mx-auto flex items-center justify-center rounded-xl">
+        <img src="/images/me.png" alt="" class="w-full max-w-sm lg:w-120 lg:max-w-none mx-auto flex items-center justify-center rounded-xl">
       </div>
     </div>
     <div class="flex items-center justify-center mt-12">

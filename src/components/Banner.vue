@@ -5,7 +5,7 @@
         <p class="!text-4xl mt-6">Welcome to my portfolio!</p>
     </div>
 
-    <img src="../../images/banner_illu.png" class="w-full h-90 object-cover" aria-label="Banner Illustration">
+    <img src="/images/banner_illu.png" class="w-full h-90 object-cover" aria-label="Banner Illustration">
 </div>
 </template>
 
