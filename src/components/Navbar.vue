@@ -2,7 +2,7 @@
   <nav class="bg-violet-400 px-[clamp(1.5rem,8vw,20rem)] py-5 sticky top-0 z-50">
     <div class="flex items-center justify-between">
       <!-- Brand Logo -->
-      <a href="#" class="text-2xl font-bold text-white">Danai Akrivou</a>
+      <a href="#" class="text-2xl font-bold text-white !no-underline">Danai Akrivou</a>
 
       <!-- Desktop Navigation -->
       <div class="hidden md:flex space-x-12 text-xl">

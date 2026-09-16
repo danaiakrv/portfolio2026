@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body {
+    @apply text-purple-900;
+}
+
 html {
     @apply scroll-smooth;
 }
@@ -18,6 +22,10 @@ h3 {
 
 p {
     @apply text-lg/10 text-justify xl:text-left;
+}
+
+a {
+    @apply underline underline-offset-4;
 }
 
 /*

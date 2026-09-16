@@ -6,7 +6,7 @@
         description="This thesis explores how front-end style guides can support accessibility and usability in web
         applications. A front-end style guide and evaluation artifacts were developed and tested using accessibility
         and usability testing. The results showed slight differences between applications based on the two approaches."
-        :tags="['Angular', 'TypeScript', 'SCSS', 'PrimeNG']"
+        :tags="['Angular', 'TypeScript', 'SCSS', 'PrimeNG', 'Git']"
         projectUrl="https://github.com/danaiakrv/frontend-style-guide-evaluation"
         imageUrl1="/images/bachelor/frame_taiyaki1.png"
         imageUrl2="/images/bachelor/frame_taiyaki2.png"
@@ -22,7 +22,7 @@
         description="This semester project is a responsive webshop for taiyakis, a traditional Japanese dessert.
         The application includes user registration and login, profile management, review creation and management and
         a checkout process."
-        :tags="['Vue.js', 'JavaScript', 'CSS', 'Java Spring Boot', 'MySQL', 'Docker']"
+        :tags="['Vue.js', 'JavaScript', 'CSS', 'Java Spring Boot', 'MySQL', 'Docker', 'Git']"
         projectUrl="https://github.com/viktormandlbauer/taiyaki"
         imageUrl1="/images/taiyakiweb/frame_taiyakiweb1.png"
         imageUrl2="/images/taiyakiweb/frame_taiyakiweb2.png"
@@ -37,7 +37,7 @@
         title="Plantie House Webshop"
         description="Plantie House is a modern online marketplace where users can browse and purchase a variety of
         plants and accessories. The application includes user registration and login, profile management and a checkout process."
-        :tags="['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'SQLite']"
+        :tags="['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'SQLite', 'Git']"
         projectUrl="https://github.com/Enquaza/plantie-webshop"
         imageUrl1="/images/plantieweb/frame_plantieweb1.png"
         imageUrl2="/images/plantieweb/frame_plantieweb2.png"

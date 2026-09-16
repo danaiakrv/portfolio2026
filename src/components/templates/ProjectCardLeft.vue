@@ -36,7 +36,7 @@
         </div>
         <div>
             <div class="aspect-[16/11] flex items-center justify-center">
-                <img :src="imageUrl4" :alt="imageAlt14" class="rounded-md" @click="openModal(imageUrl4, imageAlt4)">
+                <img :src="imageUrl4" :alt="imageAlt4" class="rounded-md" @click="openModal(imageUrl4, imageAlt4)">
             </div>
         </div>
     </div>

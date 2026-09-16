@@ -8,7 +8,7 @@
         a young schoolgirl, searches for her missing friend Eleanor Rose and faces many challenges as the game progresses.
         My part of this diploma project focused on exploring how the five stages of grief can be represented through level
         and asset design.'
-        :tags="['Unity', 'C#', 'CC Photoshop']"
+        :tags="['Unity', 'C#', 'CC Photoshop', 'Sourcetree/Git']"
         projectUrl="https://kinayastudios.itch.io/where-is-eleanor-rose"
         imageUrl1="/images/diploma/eleanor_promo2_cropped.jpg"
         imageUrl2="/images/diploma/frame_diplomaproj2.png"
