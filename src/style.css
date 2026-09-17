@@ -21,7 +21,7 @@ h3 {
 }
 
 p {
-    @apply text-lg/10 text-justify xl:text-left;
+    @apply text-lg/10;
 }
 
 a {
