@@ -49,6 +49,9 @@
                     &#10095;
                 </button>
             </div>
+            <p v-if="images[currentIndex]" class="text-sm mt-2 text-center">
+                {{ images[currentIndex].alt }}
+            </p>
         </div>
     </div>
 </div>
