@@ -1,13 +1,14 @@
 <template>
 <div class="mt-15">
     <h3>{{ title }}</h3>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10">
-        <div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:mt-10">
+        <div class="order-2 lg:order-1">
             <div class="aspect-[16/11] flex items-center justify-center">
-                <img :src="imageUrl1" :alt="imageAlt1" class="rounded-md" @click="openModal(imageUrl1, imageAlt1)">
+                <img :src="imageUrl1" :alt="imageAlt1" class="rounded-md cursor-pointer" @click="openModal(imageUrl1, imageAlt1)">
             </div>
         </div>
-        <div>
+        <!-- Text Content: Appears 1st on mobile, 2nd on desktop (right side) -->
+        <div class="order-1 lg:order-2">
             <p class="mt-3 lg:mr-10">
                 {{ description }}
             </p>
@@ -23,55 +24,55 @@
             </div>
         </div>
     </div>
+
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 mt-5">
         <div>
             <div class="aspect-[16/11] flex items-center justify-center">
-                <img :src="imageUrl2"  :alt="imageAlt2" class="rounded-md" @click="openModal(imageUrl2, imageAlt2)">
+                <img :src="imageUrl2"  :alt="imageAlt2" class="rounded-md cursor-pointer" @click="openModal(imageUrl2, imageAlt2)">
             </div>
         </div>
         <div>
             <div class="aspect-[16/11] flex items-center justify-center">
-                <img :src="imageUrl3"  :alt="imageAlt3" class="rounded-md" @click="openModal(imageUrl3, imageAlt3)">
+                <img :src="imageUrl3"  :alt="imageAlt3" class="rounded-md cursor-pointer" @click="openModal(imageUrl3, imageAlt3)">
             </div>
         </div>
         <div>
             <div class="aspect-[16/11] flex items-center justify-center">
-                <img :src="imageUrl4" :alt="imageAlt4" class="rounded-md" @click="openModal(imageUrl4, imageAlt4)">
+                <img :src="imageUrl4" :alt="imageAlt4" class="rounded-md cursor-pointer" @click="openModal(imageUrl4, imageAlt4)">
             </div>
         </div>
     </div>
 
-    <!-- Lightbox Modal -->
-        <Teleport to="body">
-            <Transition
-                enter-active-class="transition-opacity duration-200 ease-out"
-                enter-from-class="opacity-0"
-                enter-to-class="opacity-100"
-                leave-active-class="transition-opacity duration-150 ease-in"
-                leave-from-class="opacity-100"
-                leave-to-class="opacity-0"
+    <Teleport to="body">
+        <Transition
+            enter-active-class="transition-opacity duration-200 ease-out"
+            enter-from-class="opacity-0"
+            enter-to-class="opacity-100"
+            leave-active-class="transition-opacity duration-150 ease-in"
+            leave-from-class="opacity-100"
+            leave-to-class="opacity-0"
+        >
+            <div
+                v-if="selectedImage"
+                class="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+                @click.self="closeModal"
             >
-                <div
-                    v-if="selectedImage"
-                    class="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
-                    @click.self="closeModal"
+                <button
+                    class="absolute top-5 right-5 text-white/80 hover:text-white text-3xl font-light focus:outline-none"
+                    aria-label="Close image popup"
+                    @click="closeModal"
                 >
-                    <button
-                        class="absolute top-5 right-5 text-white/80 hover:text-white text-3xl font-light focus:outline-none"
-                        aria-label="Close image popup"
-                        @click="closeModal"
-                    >
-                        &times;
-                    </button>
+                    &times;
+                </button>
 
-                    <img
-                        :src="selectedImage.url"
-                        :alt="selectedImage.alt"
-                        class="max-w-full max-h-[90vh] object-contain rounded-md"
-                    >
-                </div>
-            </Transition>
-        </Teleport>
+                <img
+                    :src="selectedImage.url"
+                    :alt="selectedImage.alt"
+                    class="max-w-full max-h-[90vh] object-contain rounded-md"
+                >
+            </div>
+        </Transition>
+    </Teleport>
 </div>
 </template>
 
