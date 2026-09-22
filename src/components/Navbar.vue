@@ -1,10 +1,13 @@
 <template>
-  <nav class="bg-violet-400 px-[clamp(1.5rem,8vw,20rem)] py-5 sticky top-0 z-50">
+  <nav
+      class="px-[clamp(1.5rem,8vw,20rem)] fixed top-0 left-0 w-full z-50 transition-all duration-300"
+      :class="isScrolled
+        ? 'bg-violet-400 py-5 shadow-md'
+        : 'py-5'"
+    >
     <div class="flex items-center justify-between">
-      <!-- Brand Logo -->
       <a href="#" class="text-2xl font-bold text-white !no-underline">Danai Akrivou</a>
 
-      <!-- Desktop Navigation -->
       <div class="hidden md:flex space-x-12 text-xl">
         <a
           v-for="link in links"
@@ -16,7 +19,6 @@
         </a>
       </div>
 
-      <!-- Hamburger Button (Visible on Mobile / Tablet) -->
       <button
         type="button"
         class="md:hidden text-white focus:outline-none p-2 rounded hover:bg-violet-500 transition-colors"
@@ -24,7 +26,6 @@
         :aria-expanded="isOpen"
         @click="toggleMenu"
       >
-        <!-- Icon: Burger (shown when closed) -->
         <svg
           v-if="!isOpen"
           class="w-7 h-7"
@@ -40,7 +41,6 @@
           />
         </svg>
 
-        <!-- Icon: X (shown when open) -->
         <svg
           v-else
           class="w-7 h-7"
@@ -58,7 +58,6 @@
       </button>
     </div>
 
-    <!-- Mobile Dropdown Menu -->
     <div
       v-show="isOpen"
       class="md:hidden pt-4 pb-2 flex flex-col space-y-3 text-lg"
@@ -77,7 +76,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 
 const links = [
   { name: 'ABOUT', href: '#about' },
@@ -90,4 +89,20 @@ const isOpen = ref(false)
 const toggleMenu = () => {
   isOpen.value = !isOpen.value
 }
+
+const isScrolled = ref(false)
+
+const handleScroll = () => {
+  const isDesktop = window.innerWidth >= 1024
+  const threshold = isDesktop ? 350 : 20
+  isScrolled.value = window.scrollY > threshold
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
 </script>
