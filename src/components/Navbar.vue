@@ -1,9 +1,7 @@
 <template>
   <nav
       class="px-[clamp(1.5rem,8vw,20rem)] fixed top-0 left-0 w-full z-50 transition-all duration-300"
-      :class="isScrolled
-        ? 'bg-violet-400 py-5 shadow-md'
-        : 'py-5'"
+      :class="(isScrolled || isOpen) ? 'bg-violet-400 py-5 shadow-md' : 'py-5'"
     >
     <div class="flex items-center justify-between">
       <a href="#" class="text-2xl font-bold text-white !no-underline">Danai Akrivou</a>
