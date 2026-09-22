@@ -59,7 +59,7 @@
       </div>
     </div>
     <div class="flex items-center justify-center mt-12">
-        <button id="scroll-button" class="bg-purple-800 hover:bg-violet-900 h-20 w-80 py-3 px-5 text-white text-lg font-bold uppercase rounded-full flex gap-3 items-center justify-center cursor-pointer duration-300 hover:scale-105">
+        <button id="scroll-button" class="bg-purple-900 hover:bg-violet-900 h-20 w-80 py-3 px-5 text-white text-lg font-bold uppercase rounded-full flex gap-3 items-center justify-center cursor-pointer duration-300 hover:scale-105">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 animate-[bounce_1s_infinite]">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
             </svg>

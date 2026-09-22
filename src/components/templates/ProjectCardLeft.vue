@@ -23,7 +23,7 @@
             </div>
         </div>
     </div>
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 mt-5">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 mt-2 lg:mt-5">
         <div>
             <div class="aspect-[16/11] flex items-center justify-center">
                 <img :src="imageUrl2" :alt="imageAlt2" class="rounded-md" @click="openModal(imageUrl2, imageAlt2)">

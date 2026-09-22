@@ -18,7 +18,7 @@
             </div>
         </div>
         <div>
-            <div class="relative aspect-[16/11] max-w-2xl mx-auto overflow-hidden rounded-md shadow-lg mt-5">
+            <div class="relative aspect-[16/11] max-w-2xl mx-auto overflow-hidden rounded-md shadow-lg mt-5 border-4">
                 <div
                     class="flex h-full transition-transform duration-700 ease-out"
                     :style="{

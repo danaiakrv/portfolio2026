@@ -7,7 +7,6 @@
                 <img :src="imageUrl1" :alt="imageAlt1" class="rounded-md cursor-pointer" @click="openModal(imageUrl1, imageAlt1)">
             </div>
         </div>
-        <!-- Text Content: Appears 1st on mobile, 2nd on desktop (right side) -->
         <div class="order-1 lg:order-2">
             <p class="mt-3 lg:mr-10">
                 {{ description }}
@@ -25,7 +24,7 @@
         </div>
     </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 mt-5">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 mt-2 lg:mt-5">
         <div>
             <div class="aspect-[16/11] flex items-center justify-center">
                 <img :src="imageUrl2"  :alt="imageAlt2" class="rounded-md cursor-pointer" @click="openModal(imageUrl2, imageAlt2)">
