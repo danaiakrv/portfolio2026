@@ -1,6 +1,6 @@
 <template>
 <section id="ux-ui">
-    <h2>UX/UI Design Projects</h2>
+    <h2>UX/UI Design</h2>
     <ProjectCardSlider
         title="Prototype Forest App"
         description="As part of a semester project, a randomly selected mobile application was redesigned in terms of

@@ -1,6 +1,6 @@
 <template>
 <section id="frontend">
-    <h2>Frontend Development Projects</h2>
+    <h2>Frontend Development</h2>
     <ProjectCardLeft
         title="Bachelorproject 2026"
         description="This thesis explores how front-end style guides can support accessibility and usability in web

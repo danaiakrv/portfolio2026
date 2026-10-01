@@ -8,6 +8,8 @@
         <hr class="w-1/2 mx-auto my-6 border-t border-gray-300" />
         <UxUiSection />
         <hr class="w-1/2 mx-auto my-6 border-t border-gray-300" />
+        <GameSection />
+        <hr class="w-1/2 mx-auto my-6 border-t border-gray-300" />
         <OtherSection />
         <Footer />
     </div>
@@ -19,6 +21,7 @@ import Banner from '../components/Banner.vue'
 import AboutSection from '../components/AboutSection.vue'
 import FrontendSection from '../components/FrontendSection.vue'
 import UxUiSection from '../components/UxUiSection.vue'
+import GameSection from '../components/GameSection.vue'
 import OtherSection from '../components/OtherSection.vue'
 import Footer from '../components/Footer.vue'
 </script>

@@ -1,24 +1,6 @@
 <template>
 <section id="other">
     <h2>Other Projects</h2>
-    <ProjectCardLeft
-        title="Diplomaproject 2020"
-        description='"Where Is Eleanor Rose?" is a combination of a 2D adventure game and visual novel that represents
-        the grieving process through the five stages of grief, first introduced by Elisabeth Kübler-Ross. Georgia Daisy,
-        a young schoolgirl, searches for her missing friend Eleanor Rose and faces many challenges as the game progresses.
-        My part of this diploma project focused on exploring how the five stages of grief can be represented through level
-        and asset design.'
-        :tags="['Unity', 'C#', 'CC Photoshop', 'Sourcetree/Git']"
-        projectUrl="https://kinayastudios.itch.io/where-is-eleanor-rose"
-        imageUrl1="/images/diploma/eleanor_promo2_cropped.jpg"
-        imageUrl2="/images/diploma/frame_diplomaproj2.png"
-        imageUrl3="/images/diploma/frame_diplomaproj3.png"
-        imageUrl4="/images/diploma/frame_diplomaproj4.png"
-        imageAlt1='Promotional visual for "Where Is Eleanor Rose?"'
-        imageAlt2="Game screenshot representing Stage Anger"
-        imageAlt3="Game screenshot representing Stage Depression"
-        imageAlt4="Game screenshot representing Stage Bargaining"
-    />
     <ProjectCardSlider
         title="Digital and Traditional Art"
         description="Drawing traditionally has been my passion since childhood. Over time, I learned to create my artworks
@@ -39,6 +21,5 @@
 </template>
 
 <script setup>
-import ProjectCardLeft from './templates/ProjectCardLeft.vue'
 import ProjectCardSlider from './templates/ProjectCardSlider.vue'
 </script>

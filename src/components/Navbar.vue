@@ -80,6 +80,7 @@ const links = [
   { name: 'ABOUT', href: '#about' },
   { name: 'FRONTEND', href: '#frontend' },
   { name: 'UX/UI', href: '#ux-ui' },
+  { name: 'GAME', href: '#game' },
   { name: 'OTHER', href: '#other' }
 ]
 
